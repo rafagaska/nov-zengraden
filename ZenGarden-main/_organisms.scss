@@ -1,0 +1,121 @@
+@use 'variables' as *;
+@use 'atoms';
+@use 'molecules';
+
+body {
+  background-color: cornsilk;
+}
+
+.intro {
+  background-size: 93em;
+  background-image: url(images/kina-Io.jpg);
+  background-repeat: no-repeat;
+  
+}
+
+.page-wrapper { 
+	
+  margin: 0; 
+	position: relative;
+
+	}
+
+.intro { 
+		width: auto;
+    color: $color-white;
+   
+} 
+	
+header h1:hover { 
+  display: block;
+	color: cyan;
+  width: 200px;
+  padding: 14px;
+  position: relative;
+  margin-left: 20px;
+  white-space: nowrap; 
+
+		}
+
+header {
+  padding-top: 40px;
+  background-size: 86em;
+  background-repeat: no-repeat;
+  color: $color-white;
+  
+}
+
+.summary {
+  width: 80%;
+  
+	margin: 1 auto;
+   background-color: transparent;
+   // rgb(255, 217, 0)
+}
+
+
+.preamble  {
+  
+  width: 1000px;
+  height: 500px;
+	margin: 1 auto; 
+  background-size: 992px;
+  background-repeat: no-repeat;
+}
+
+
+
+.main {	
+  width: 1000px;
+  height: 500px;
+	margin: 1 auto; 
+  
+  
+  //background-color:  rgb(45, 107, 87);
+   
+}
+
+footer { 
+  text-align: center; 
+	display: flex;
+  justify-content: center;
+  background-image: url(images/path.jpg);
+  background-size: 800px;
+  margin-bottom: 50px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: transparent;
+    padding: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+footer a.zen-validate-html {
+  background-image: url(images/html-5.png);
+    
+}
+
+footer a.zen-validate-css {
+  background-image: url(images/css-3.png);
+    
+}
+
+footer a.zen-license {
+  background-image: url(images/cc.png);
+    
+}
+
+footer a.zen-accessibility {
+  background-image: url(images/info.png);
+    
+}
+
+footer a.zen-github {
+  background-image: url(images/github.png);
+}
